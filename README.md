@@ -52,10 +52,3 @@ To satisfy the scalability requirement, we performed a load test using **Locust*
 The model was evaluated using Accuracy, Precision, Recall, and F1-Score (see Notebook for detailed classification report).
 * **Accuracy:** ~96%
 * **Optimization:** Used Transfer Learning (MobileNetV2) and Early Stopping to prevent overfitting.
-"""
-
-# Write the file
-with open("eco-sort-pipeline/README.md", "w") as f:
-    f.write(readme_content)
-
-print("✅ Final Compliant README.md created.")
